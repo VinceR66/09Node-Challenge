@@ -1,0 +1,26 @@
+{
+  "name": "09node-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinceR66/09Node-Challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VinceR66/09Node-Challenge/issues"
+  },
+  "homepage": "https://github.com/VinceR66/09Node-Challenge#readme",
+  "dependencies": {
+    "inquirer": "^8.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
