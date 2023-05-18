@@ -1,9 +1,9 @@
 
 const fs = require('fs');
-const { questions } = require("./questions");
+
 const inquirer = require("inquirer");
 const generateMarkdown = require('./generateMarkdown.js');
-
+const { questions } = require("./questions");
 function askQuestions() {
     inquirer.prompt(questions).then(function (answers) {
         console.log(answers);
