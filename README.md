@@ -27,7 +27,7 @@ User should download Node and clone the repository. Application also requires in
 
 _________________________________________________________________________
 ## Usage 
-Invoke program with node app.js  - answers the prompts.  
+Invoke program with node app.js - answers the prompts.  
 
 _________________________________________________________________________
 ## License :  MIT  
@@ -42,8 +42,4 @@ _________________________________________________________________________
 ### Questions : 
 Please contact me at info@me.com with additional questions.  
 
-VinceR66  
-
-_________________________________________________________________________
-## Screenshot   
-![Screenshot](No Screenshots - see links provided.png)
+Github Username : VinceR66

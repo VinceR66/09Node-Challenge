@@ -7,10 +7,10 @@ const generateMarkdown = require('./generateMarkdown.js');
 function askQuestions() {
     inquirer.prompt(questions).then(function (answers) {
         console.log(answers);
-        //new below
+
         return generateMarkdown(answers);
     })
-        //new below
+
         .then(data => {
             return writeFile(data);
         })
@@ -24,14 +24,14 @@ function main() {
 
 main();
 
-//new below
+
 const writeFile = data => {
     fs.writeFile('README.md', data, err => {
-        // if error 
+
         if (err) {
             console.log(err);
             return;
-            //README created 
+
         } else {
             console.log("Your README has been successfully created!")
         }
@@ -41,4 +41,3 @@ const writeFile = data => {
 
 
 
-//(http://img.shields.io/badge/license-${data.license}-blue.svg)
