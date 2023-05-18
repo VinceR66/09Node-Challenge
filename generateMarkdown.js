@@ -14,24 +14,55 @@ function renderLicenseSection(license) { }
 
 function generateMarkdown(data) {
 
-    return `# ${data.projectName}
-    ______
+    return `# ${data.projectName}  
+ 
+    
+![Screenshot](./${data.projectLicense}.png)  
 
-### Description 
-${data.projectDescription}
+_________________________________________________________________________
+## Description 
+${data.projectDescription}  
 
-### Usage 
-${data.projectUsage}
+_________________________________________________________________________
+## Table of Contents:
 
-### Screenshot   
-![Screenshot](${data.projectScreenshot}.png) 
+Installation
 
-### License :  ${data.projectLicense}
+Usage
 
-![Screenshot](./${data.projectLicense}.png)
+License
 
-### Repository: 
-${data.projectLink}`;
+Links
+
+Questions  
+
+
+_________________________________________________________________________
+## Installation 
+${data.projectInstall}  
+
+_________________________________________________________________________
+## Usage 
+${data.projectUsage}  
+
+_________________________________________________________________________
+## License :  ${data.projectLicense}  
+
+_________________________________________________________________________
+## Links:
+Repository:  ${data.projectLink}  
+
+Screencastify:  ${data.projectVideo}   
+
+_________________________________________________________________________
+### Questions : 
+Please contact me at ${data.projectContact} with additional questions.  
+
+${data.projectGithub}  
+
+_________________________________________________________________________
+## Screenshot   
+![Screenshot](${data.projectScreenshot}.png)`;
 
 }
 

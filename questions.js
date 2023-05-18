@@ -7,7 +7,7 @@ const questions = [
         type: 'input',
         message: "What is the name of your project?",
         name: "projectName",
-        default: "README GENERATOR"
+        default: "README Generator"
     },
     {
         type: 'input',
@@ -22,6 +22,19 @@ const questions = [
             }
         }
     },
+    {
+        type: 'input',
+        message: "Describe required installation",
+        name: "projectInstall",
+        default: 'none'
+    },
+    {
+        type: 'input',
+        message: "What is your Github Username?",
+        name: "projectGithub",
+        default: 'user.github'
+    },
+
     {
         type: 'input',
         message: 'Briefly explain how to use project',
@@ -57,10 +70,22 @@ const questions = [
     },
     {
         type: 'input',
-        message: "Please provide a link - if needed",
+        message: "Please provide a link to Repository",
         name: "projectLink",
         default: 'No link provided'
 
+    },
+    {
+        type: 'input',
+        message: "Please provide a url to Screencastify Video",
+        name: "projectVideo",
+        default: 'No link provided'
+    },
+    {
+        type: 'input',
+        message: "Please provide a contact email",
+        name: "projectContact",
+        default: 'info@me.com'
     }
 ];
 
